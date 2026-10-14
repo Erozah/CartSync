@@ -3,10 +3,10 @@ server:
 
 spring:
   application:
-    name: kestachet
+    name: cartsync
 
   datasource:
-    url: jdbc:h2:mem:kestachetdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:mem:cartsyncdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
     username: sa
     password: ""
@@ -33,9 +33,9 @@ spring:
       on-profile: prod
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/kestachet_db
+    url: jdbc:postgresql://localhost:5432/cartsync_db
     driver-class-name: org.postgresql.Driver
-    username: ${DB_USERNAME:kestachet}
+    username: ${DB_USERNAME:cartsync}
     password: ${DB_PASSWORD:secret}
 
   jpa:

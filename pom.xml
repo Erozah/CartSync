@@ -11,10 +11,10 @@
     </parent>
 
     <groupId>com.erozah</groupId>
-    <artifactId>kestachet</artifactId>
+    <artifactId>cartsync</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>kestachet</name>
-    <description>API REST de liste de courses partagées et moteur de budget (Architecture Hexagonale)</description>
+    <name>CartSync</name>
+    <description>API REST de synchronisation hors-ligne de paniers et moteur de budget (Architecture Hexagonale)</description>
 
     <properties>
         <java.version>17</java.version>
